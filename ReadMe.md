@@ -2,7 +2,7 @@
 
 ### What is OOP?
 
-OOP is about modelling the real world by describing objects and their interactions.  Say if we are modelling the animal kingdom, then we would want to have objects representing the type of animals like a dog, cat etc. Every animal would have some properties in common like name, age etc. and they would have some common behaviours like what they like eating and some specific behaviours like some animals can make sound and some cannot.
+Object Oriented Programming(OOP) is about modelling the real world by describing objects and their interactions.  Say if we are modelling the animal kingdom, then we would want to have objects representing the type of animals like a dog, cat etc. Every animal would have some properties in common like name, age etc. and they would have some common behaviours like what they like eating and some specific behaviours like some animals can make sound and some cannot.
 
 ### Why OOP?
 
