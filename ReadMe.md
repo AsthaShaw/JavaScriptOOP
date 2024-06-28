@@ -73,8 +73,8 @@ So we will create a class dog but dog has the same attributes and behaviour of p
 ```jsx
 class Dog extends Animal{
 
-    constructor(name){
-        super(name, 2)
+    constructor(name, age){
+        super(name, age)
     }
 
     makeSound(){
