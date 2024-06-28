@@ -1,0 +1,9 @@
+- What is OOP?
+
+- Why->we would have to build many student objects which wouldn't be very efficient. Instead of duplicating animal objects, we can define a blueprint for a animal and with that blueprint, create some instances/ some objects of animal
+
+- What
+  classes-template and objects
+  constructor-We pass values to the constructor for any internal state that we want to initialize in the new instance.
+
+- How -Structure,  pillars
