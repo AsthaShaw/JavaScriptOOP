@@ -10,10 +10,10 @@ class Animal{
     }
 }
 
-// const dog=new Animal("Tomy", 2);
-// dog.diet("chicken")
+ const dog=new Animal("Tomy", 2);
+ dog.diet("chicken")
 
-// const cat=new Animal("Celine", 3)
-// cat.diet("catfood")
+ const cat=new Animal("Celine", 3)
+ cat.diet("catfood")
 
 module.exports=Animal;

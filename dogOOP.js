@@ -2,8 +2,8 @@ const Animal=require('./animalOOP.js')
 
 class Dog extends Animal{
 
-    constructor(name){
-        super(name, 2)
+    constructor(name, age){
+        super(name, age)
     }
 
     makeSound(){
@@ -11,10 +11,10 @@ class Dog extends Animal{
     }
 }
 
-const tommy=new Dog("Tommy");
+const tommy=new Dog("Tommy", 2);
 tommy.diet("avocados");
 tommy.makeSound();
 
-const bailey=new Dog("Bailey");
+const bailey=new Dog("Bailey", 3);
 bailey.diet("lamb");
 bailey.makeSound();
