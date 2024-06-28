@@ -92,3 +92,23 @@ bailey.makeSound();
 ```
 
 Thus the dog and animal are connected through the “extends” keyword. And the super keyword basically connects to the constructor of the parent.
+
+- **Polymorphism-** Simple meaning of this pillar means many forms. Say we want a different implementation of diet method in dog. So parent class animal and child class dog has same method but different implementation. so here we can introduce the term “method overidding” which is basically the dog has overidden the parent’s diet method and has its own implementation now.
+
+```jsx
+class Dog extends Animal{
+
+    constructor(name, age){
+        super(name, age)
+    }
+
+    makeSound(){
+        console.log(`${this.name} barks`);
+    }
+//Polymorphism-method overiding
+    diet(food){
+        console.log(`${this.name} likes eating ${food} but his regular diet contains dog food too for extra nutrition`);
+    }
+    
+}
+```
